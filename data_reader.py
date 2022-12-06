@@ -43,7 +43,11 @@ def read_data():
 
 		for p in paths:
 			with open(p) as f:
-				data.append(f.readlines())
+				x = []
+				lines = f.readlines()
+				for l in lines:
+					x.append([float(num) for num in l.split(" ")])
+				data.append(x)
 
 		labels.append(label)
 
