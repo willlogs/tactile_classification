@@ -23,11 +23,11 @@ class LSTM(nn.Module):
 		h_t2 = torch.zeros(1, self.hidden_dim, dtype=torch.float32)
 		c_t2 = torch.zeros(1, self.hidden_dim, dtype=torch.float32)
 
-		for time_step in x.split(1):
+		i = 0
+		for time_step in x.split(1)[20:100]:
 			out1, (h_t, c_t) = self.lstm1(time_step, (h_t, c_t))
 			out2, (h_t2, c_t2) = self.lstm2(h_t, (h_t2, c_t2))
-			tag_space = self.hidden2tag(h_t2)
-			tag_scores = F.log_softmax(tag_space, dim=1)
-			outputs.append(tag_scores)
+			tag_space = self.hidden2tag(out2)
+			outputs.append(tag_space)
 
-		return tag_scores
+		return tag_space

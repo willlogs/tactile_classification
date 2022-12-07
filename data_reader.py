@@ -1,4 +1,5 @@
 import glob
+from operator import itemgetter
 
 def extract_labels(dir_path):
 	splittedby_ = dir_path.split("_")
@@ -35,13 +36,15 @@ def read_data():
 			temp_arr.append((label, gripPower, weight, dir_path))
 
 	data = []
+	data_t = []
 	labels = []
 
 	for path, label in ideal_paths:
 		paths = glob.glob(path + "/*")
-		paths = glob.glob(paths[1] + "/*/pos.txt") # grab top poses
+		paths_p = glob.glob(paths[1] + "/*/pos.txt") # grab top poses
+		paths_t = glob.glob(paths[1] + "/*/tactile.txt") # grab top poses
 
-		for p in paths:
+		for p in paths_p:
 			with open(p) as f:
 				x = []
 				lines = f.readlines()
@@ -49,6 +52,24 @@ def read_data():
 					x.append([float(num) for num in l.split(" ")])
 				data.append(x)
 
-		labels.append(label)
+		# tactile data (3, 7, 11)
+		indices = [3, 7, 11]
+		for p in paths_t:
+			with open(p) as f:
+				x = []
+				lines = f.readlines()
+				for l in lines:
+					x.append([float(num) for num in itemgetter(*indices)(l.split(" "))])
+				data_t.append(x)
 
-	return data, labels
+		labels.append(label)
+	
+	whole_data = []
+	for d1, d2 in zip(data, data_t):
+		x = []
+		for x1, x2 in zip(d1, d2):
+			x.append(x1 + x2)
+
+		whole_data.append(x)
+
+	return whole_data, labels

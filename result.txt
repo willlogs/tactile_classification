@@ -1,0 +1,1030 @@
+reading dataset...
+Number of data sequences: 100
+Number of Classes: 10
+Dividing to test/train sets
+number of test dps: 20
+number of train dps: 80
+0
+4
+5
+6
+6
+4
+7
+9
+1
+1
+0
+0
+7
+1
+8
+9
+7
+9
+3
+8
+accuracy on test data: 0.1
+--------------------------------------------------------------------------------|
+0: 163.5917205810547 --- accuracy: 0.225
+tensor(5)
+tensor(6)
+accuracy on test data: 0.1
+--------------------------------------------------------------------------------|
+1: 117.70866394042969 --- accuracy: 0.425
+tensor(5)
+tensor(6)
+tensor(6)
+accuracy on test data: 0.15
+--------------------------------------------------------------------------------|
+2: 106.1941146850586 --- accuracy: 0.4375
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(4)
+accuracy on test data: 0.2
+--------------------------------------------------------------------------------|
+3: 93.46392822265625 --- accuracy: 0.4625
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(4)
+tensor(7)
+tensor(7)
+tensor(7)
+tensor(8)
+accuracy on test data: 0.45
+--------------------------------------------------------------------------------|
+4: 85.49745178222656 --- accuracy: 0.5
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(4)
+tensor(7)
+tensor(7)
+tensor(7)
+tensor(8)
+accuracy on test data: 0.45
+--------------------------------------------------------------------------------|
+5: 69.89029693603516 --- accuracy: 0.5875
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(4)
+tensor(7)
+tensor(7)
+tensor(7)
+tensor(8)
+accuracy on test data: 0.45
+--------------------------------------------------------------------------------|
+6: 64.21168518066406 --- accuracy: 0.6375
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(4)
+tensor(7)
+tensor(7)
+tensor(7)
+tensor(8)
+accuracy on test data: 0.45
+--------------------------------------------------------------------------------|
+7: 78.086669921875 --- accuracy: 0.575
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(7)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+accuracy on test data: 0.55
+--------------------------------------------------------------------------------|
+8: 71.49691009521484 --- accuracy: 0.5625
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(7)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+accuracy on test data: 0.55
+--------------------------------------------------------------------------------|
+9: 67.87784576416016 --- accuracy: 0.6
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(7)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+accuracy on test data: 0.55
+--------------------------------------------------------------------------------|
+10: 66.77603912353516 --- accuracy: 0.625
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(7)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+accuracy on test data: 0.55
+--------------------------------------------------------------------------------|
+11: 66.31974029541016 --- accuracy: 0.5625
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(7)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+accuracy on test data: 0.55
+--------------------------------------------------------------------------------|
+12: 75.87278747558594 --- accuracy: 0.55
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(4)
+tensor(0)
+tensor(0)
+tensor(1)
+accuracy on test data: 0.45
+--------------------------------------------------------------------------------|
+13: 65.31816864013672 --- accuracy: 0.6125
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(7)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+accuracy on test data: 0.55
+--------------------------------------------------------------------------------|
+14: 73.06603240966797 --- accuracy: 0.5875
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(4)
+tensor(7)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+accuracy on test data: 0.6
+--------------------------------------------------------------------------------|
+15: 65.6593017578125 --- accuracy: 0.6
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(4)
+tensor(7)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+accuracy on test data: 0.6
+--------------------------------------------------------------------------------|
+16: 59.00033950805664 --- accuracy: 0.625
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(7)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+accuracy on test data: 0.55
+--------------------------------------------------------------------------------|
+17: 58.31006622314453 --- accuracy: 0.6625
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(7)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+accuracy on test data: 0.55
+--------------------------------------------------------------------------------|
+18: 72.074462890625 --- accuracy: 0.65
+tensor(0)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(0)
+tensor(0)
+tensor(1)
+accuracy on test data: 0.35
+--------------------------------------------------------------------------------|
+19: 55.34463119506836 --- accuracy: 0.6875
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(7)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+accuracy on test data: 0.55
+--------------------------------------------------------------------------------|
+20: 55.78296661376953 --- accuracy: 0.7125
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(7)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+accuracy on test data: 0.55
+--------------------------------------------------------------------------------|
+21: 48.284996032714844 --- accuracy: 0.7375
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(4)
+tensor(7)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(8)
+accuracy on test data: 0.65
+--------------------------------------------------------------------------------|
+22: 42.047725677490234 --- accuracy: 0.775
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(7)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(8)
+accuracy on test data: 0.6
+--------------------------------------------------------------------------------|
+23: 39.561248779296875 --- accuracy: 0.725
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(7)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+accuracy on test data: 0.55
+--------------------------------------------------------------------------------|
+24: 39.39982223510742 --- accuracy: 0.7375
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(7)
+tensor(1)
+tensor(1)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(8)
+accuracy on test data: 0.7
+--------------------------------------------------------------------------------|
+25: 30.94733238220215 --- accuracy: 0.825
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(7)
+tensor(1)
+tensor(1)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(8)
+accuracy on test data: 0.7
+--------------------------------------------------------------------------------|
+26: 29.59954833984375 --- accuracy: 0.7875
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(4)
+tensor(7)
+tensor(1)
+tensor(1)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(8)
+accuracy on test data: 0.75
+--------------------------------------------------------------------------------|
+27: 29.459835052490234 --- accuracy: 0.775
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(4)
+tensor(7)
+tensor(1)
+tensor(1)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(8)
+accuracy on test data: 0.75
+--------------------------------------------------------------------------------|
+28: 26.828920364379883 --- accuracy: 0.8125
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(7)
+tensor(1)
+tensor(1)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(3)
+tensor(8)
+accuracy on test data: 0.75
+--------------------------------------------------------------------------------|
+29: 26.37594223022461 --- accuracy: 0.8125
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(7)
+tensor(1)
+tensor(1)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(3)
+tensor(8)
+accuracy on test data: 0.75
+--------------------------------------------------------------------------------|
+30: 27.412464141845703 --- accuracy: 0.8125
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(7)
+tensor(1)
+tensor(1)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(8)
+accuracy on test data: 0.7
+--------------------------------------------------------------------------------|
+31: 24.29791831970215 --- accuracy: 0.825
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(7)
+tensor(1)
+tensor(1)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(3)
+tensor(8)
+accuracy on test data: 0.75
+--------------------------------------------------------------------------------|
+32: 23.378591537475586 --- accuracy: 0.85
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(7)
+tensor(1)
+tensor(1)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(3)
+tensor(8)
+accuracy on test data: 0.75
+--------------------------------------------------------------------------------|
+33: 18.923297882080078 --- accuracy: 0.8625
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(7)
+tensor(1)
+tensor(1)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(3)
+tensor(8)
+accuracy on test data: 0.75
+--------------------------------------------------------------------------------|
+34: 28.484115600585938 --- accuracy: 0.825
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(7)
+tensor(1)
+tensor(1)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(8)
+accuracy on test data: 0.7
+--------------------------------------------------------------------------------|
+35: 22.352277755737305 --- accuracy: 0.85
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(4)
+tensor(7)
+tensor(1)
+tensor(1)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(3)
+tensor(8)
+accuracy on test data: 0.8
+--------------------------------------------------------------------------------|
+36: 56.6684455871582 --- accuracy: 0.7625
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(4)
+tensor(7)
+tensor(1)
+tensor(1)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+accuracy on test data: 0.7
+--------------------------------------------------------------------------------|
+37: 58.88569259643555 --- accuracy: 0.6625
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(4)
+tensor(7)
+tensor(1)
+tensor(1)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+accuracy on test data: 0.7
+--------------------------------------------------------------------------------|
+38: 43.99835968017578 --- accuracy: 0.7875
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(4)
+tensor(7)
+tensor(1)
+tensor(1)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(3)
+accuracy on test data: 0.75
+--------------------------------------------------------------------------------|
+39: 52.30091857910156 --- accuracy: 0.7125
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(4)
+tensor(7)
+tensor(1)
+tensor(1)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(8)
+accuracy on test data: 0.55
+--------------------------------------------------------------------------------|
+40: 93.72657775878906 --- accuracy: 0.5125
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(4)
+tensor(7)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+accuracy on test data: 0.6
+--------------------------------------------------------------------------------|
+41: 57.923091888427734 --- accuracy: 0.6875
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(4)
+tensor(7)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(8)
+accuracy on test data: 0.65
+--------------------------------------------------------------------------------|
+42: 57.12580490112305 --- accuracy: 0.7
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(4)
+tensor(7)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+accuracy on test data: 0.6
+--------------------------------------------------------------------------------|
+43: 48.83857727050781 --- accuracy: 0.7125
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(4)
+tensor(7)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(8)
+accuracy on test data: 0.65
+--------------------------------------------------------------------------------|
+44: 43.841636657714844 --- accuracy: 0.75
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(4)
+tensor(7)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(8)
+accuracy on test data: 0.65
+--------------------------------------------------------------------------------|
+45: 41.53962707519531 --- accuracy: 0.7875
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(4)
+tensor(7)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(8)
+accuracy on test data: 0.65
+--------------------------------------------------------------------------------|
+46: 31.12209701538086 --- accuracy: 0.825
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(4)
+tensor(7)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(8)
+accuracy on test data: 0.65
+--------------------------------------------------------------------------------|
+47: 37.762451171875 --- accuracy: 0.8
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(7)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(8)
+accuracy on test data: 0.6
+--------------------------------------------------------------------------------|
+48: 35.0871467590332 --- accuracy: 0.8375
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(7)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(9)
+tensor(8)
+accuracy on test data: 0.65
+--------------------------------------------------------------------------------|
+49: 24.789838790893555 --- accuracy: 0.875
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(4)
+tensor(7)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(9)
+tensor(8)
+accuracy on test data: 0.7
+--------------------------------------------------------------------------------|
+50: 30.839641571044922 --- accuracy: 0.8
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(4)
+tensor(7)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(8)
+accuracy on test data: 0.65
+--------------------------------------------------------------------------------|
+51: 29.46670150756836 --- accuracy: 0.8125
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(4)
+tensor(7)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(8)
+accuracy on test data: 0.65
+--------------------------------------------------------------------------------|
+52: 26.434572219848633 --- accuracy: 0.85
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(7)
+tensor(9)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(9)
+tensor(3)
+tensor(8)
+accuracy on test data: 0.75
+--------------------------------------------------------------------------------|
+53: 25.234233856201172 --- accuracy: 0.85
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(7)
+tensor(1)
+tensor(1)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(8)
+accuracy on test data: 0.7
+--------------------------------------------------------------------------------|
+54: 29.345571517944336 --- accuracy: 0.7625
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(4)
+tensor(7)
+tensor(1)
+tensor(1)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(8)
+accuracy on test data: 0.75
+--------------------------------------------------------------------------------|
+55: 27.440383911132812 --- accuracy: 0.8375
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(7)
+tensor(1)
+tensor(1)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(8)
+accuracy on test data: 0.7
+--------------------------------------------------------------------------------|
+56: 42.158851623535156 --- accuracy: 0.775
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(4)
+tensor(7)
+tensor(1)
+tensor(1)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(8)
+accuracy on test data: 0.75
+--------------------------------------------------------------------------------|
+57: 43.75623321533203 --- accuracy: 0.7375
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(4)
+tensor(7)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(8)
+accuracy on test data: 0.65
+--------------------------------------------------------------------------------|
+58: 30.562055587768555 --- accuracy: 0.8125
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(4)
+tensor(7)
+tensor(1)
+tensor(1)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(8)
+accuracy on test data: 0.75
+--------------------------------------------------------------------------------|
+59: 28.895273208618164 --- accuracy: 0.8
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(4)
+tensor(7)
+tensor(1)
+tensor(1)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(8)
+accuracy on test data: 0.75
+--------------------------------------------------------------------------------|
+60: 27.207782745361328 --- accuracy: 0.8125
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(4)
+tensor(7)
+tensor(1)
+tensor(1)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(8)
+accuracy on test data: 0.75
+--------------------------------------------------------------------------------|
+61: 24.959501266479492 --- accuracy: 0.85
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(4)
+tensor(7)
+tensor(1)
+tensor(1)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(9)
+tensor(8)
+accuracy on test data: 0.8
+--------------------------------------------------------------------------------|
+62: 27.586837768554688 --- accuracy: 0.8375
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(7)
+tensor(1)
+tensor(1)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(8)
+accuracy on test data: 0.7
+--------------------------------------------------------------------------------|
+63: 23.898452758789062 --- accuracy: 0.8625
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(4)
+tensor(7)
+tensor(1)
+tensor(1)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(9)
+tensor(8)
+accuracy on test data: 0.8
+--------------------------------------------------------------------------------|
+64: 23.12934112548828 --- accuracy: 0.85
+tensor(0)
+tensor(4)
+tensor(5)
+tensor(6)
+tensor(6)
+tensor(7)
+tensor(1)
+tensor(1)
+tensor(0)
+tensor(0)
+tensor(7)
+tensor(1)
+tensor(7)
+tensor(8)
+accuracy on test data: 0.7
+
